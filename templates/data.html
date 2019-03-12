@@ -1,0 +1,14 @@
+<ul>
+{% for obj in data %}
+    <li>{{ obj.emp_name }} - {{ obj.type_code }} - {{ obj.image_url }} - {{ obj.local_path }}</li>
+{% endfor %}
+</ul>
+
+{#   {% for obj in data %}#}
+{#       <tr>#}
+{#         <td>{{ obj.emp_name }}</td>#}
+{#         <td>{{ obj.type_code }}</td>#}
+{#         <td>{{ obj.image_url }}</td>#}
+{#         <td>{{ obj.local_path }}</td>#}
+{#        </tr>#}
+{#    {%endfor%}#}
